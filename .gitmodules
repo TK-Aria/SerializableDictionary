@@ -1,0 +1,3 @@
+[submodule "Assets/Unity.Extension"]
+	path = Assets/Unity.Extension
+	url = https://github.com/TK-Aria/Unity.Extension-Plugin.git
