@@ -1,9 +1,10 @@
 {
     "name": "com.aria.unity.serializable",
     "version": "1.0.0",
-    "displayName": "AriaPlugin.Serializable",
-    "description": "",
     "unity": "2019.1",
+	"displayName": "Serializable Dictionary",
+	"description": "explanation",
+	"category": "Serializable",
     "dependencies": {
     },
     "keywords": [
