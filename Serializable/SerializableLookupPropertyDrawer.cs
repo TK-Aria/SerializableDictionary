@@ -7,7 +7,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityObject = UnityEngine.Object;
 
-namespace SerializableCollections
+namespace AriaPlugin.Serializable
 {
     public abstract class SerializableLookupPropertyDrawer : PropertyDrawer
     {

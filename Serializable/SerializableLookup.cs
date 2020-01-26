@@ -4,7 +4,7 @@ using System.Collections;
 using UnityEngine;
 using System.Linq;
 
-namespace SerializableCollections
+namespace AriaPlugin.Serializable
 {
     // Mutable(Buildable) Serializable Lookup. Does not support remove.
 

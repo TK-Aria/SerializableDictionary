@@ -5,7 +5,7 @@ using UnityEditor;
 using UnityEngine;
 
 
-namespace SerializableCollections
+namespace AriaPlugin.Serializable
 {
 
     public abstract class SerializableDictionaryPropertyDrawer<Key, Value> : SerializableDictionaryPropertyDrawer<Key, Value, Key, Value> 

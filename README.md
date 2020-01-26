@@ -1,6 +1,6 @@
 SerializableDictionary
 ===
-SerializableDictionary(SerializableCollections) is fast, native serializable collections for Unity, includes SerializableDictionary, SerializableLookup, SerializableTuple.
+SerializableDictionary(AriaPlugin.Serializable) is fast, native serializable collections for Unity, includes SerializableDictionary, SerializableLookup, SerializableTuple.
 
 What is this?
 ---
@@ -8,7 +8,7 @@ If using C# deserialization in Unity, it is slow than native serialization proce
 
 How to use
 ---
-Download Zip or clone GithHub and put  under Assetss/SerializableCollections in your project. You have to inheritant `SerializableDictionary<TKey, TValue>` for serialization, for example TKey:Int, TValue:string is
+Download Zip or clone GithHub and put  under Assetss/AriaPlugin.Serializable in your project. You have to inheritant `SerializableDictionary<TKey, TValue>` for serialization, for example TKey:Int, TValue:string is
  
 ```csharp
 [Serializable]

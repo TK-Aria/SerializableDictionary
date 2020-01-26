@@ -1,7 +1,7 @@
 ﻿#if UNITY_EDITOR
 using UnityEngine;
 
-namespace SerializableCollections.SerializableDictionaryPropertyDrawerHelper
+namespace AriaPlugin.Serializable.SerializableDictionaryPropertyDrawerHelper
 {
 
     public abstract class SingleLineStyle<Key, Value> : SingleLineStyle<Key, Value, Key, Value>
