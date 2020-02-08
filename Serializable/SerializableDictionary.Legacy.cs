@@ -22,7 +22,7 @@ namespace AriaPlugin.Serializable
         /// </summary> 
         public Dictionary<X, Y> ToDictionary()
         {
-            Dictionary<X, Y> newDictionary = new Dictionary<X,Y>();
+            var newDictionary = new Dictionary<X,Y>();
 
             foreach(var node in tree)
             {
@@ -56,7 +56,7 @@ namespace AriaPlugin.Serializable
         /// </summary>
         private void Add(X key,Y value)
         {
-            Type newNode = new Type();
+            var newNode = new Type();
             newNode.Insert(key, value);
             tree.Add(newNode);
         }
@@ -64,7 +64,6 @@ namespace AriaPlugin.Serializable
         /// <summary>
         ///  キーに対応した値を探します.
         /// </summary>
-
         private Y Search(X key)
         {
             Y searchValue = default(Y);
