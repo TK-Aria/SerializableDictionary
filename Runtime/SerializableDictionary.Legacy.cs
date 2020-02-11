@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace AriaPlugin.Serializable
+namespace AriaPlugin.Runtime.Serializable
 {
 
     [Serializable]

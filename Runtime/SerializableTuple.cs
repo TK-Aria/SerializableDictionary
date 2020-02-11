@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace AriaPlugin.Serializable
+namespace AriaPlugin.Runtime.Serializable
 {
     [Serializable]
     public abstract class SerializableTuple<T1, T2> : IEquatable<SerializableTuple<T1, T2>>

@@ -7,7 +7,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityObject = UnityEngine.Object;
 
-namespace AriaPlugin.Serializable
+namespace AriaPlugin.Editor.Serializable
 {
     public abstract class SerializableDictionaryPropertyDrawer : PropertyDrawer
     {

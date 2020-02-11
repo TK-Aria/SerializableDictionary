@@ -1,13 +1,14 @@
 ﻿#if UNITY_EDITOR
 using UnityEngine;
 
-namespace AriaPlugin.Serializable.SerializableDictionaryPropertyDrawerHelper
+namespace AriaPlugin.Editor.Serializable.SerializableDictionaryPropertyDrawerHelper
 {
 
     public abstract class SingleLineStyle<Key, Value> : SingleLineStyle<Key, Value, Key, Value>
     {
     }
 
+    // EditorGUILayout.PropertyField
     public abstract class SingleLineStyle<Key, Value, EditorKey, EditorValue> : SerializableDictionaryPropertyDrawer<Key, Value, EditorKey, EditorValue> 
     {
 

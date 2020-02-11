@@ -5,7 +5,7 @@ using UnityEditor;
 using UnityEngine;
 
 
-namespace AriaPlugin.Serializable
+namespace AriaPlugin.Editor.Serializable
 {
 
     public abstract class SerializableDictionaryPropertyDrawer<Key, Value> : SerializableDictionaryPropertyDrawer<Key, Value, Key, Value> 
@@ -158,7 +158,7 @@ namespace AriaPlugin.Serializable
             position = position.AddSingleLine();
             if(GUI.Button(position.VerticalLayout(25,50), "Add"))
             {
-                dictionary[0] = null;
+                dictionary[default(Key)] = default(Value);
             }
         }
 

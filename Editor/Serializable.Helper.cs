@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace AriaPlugin.Serializable
+namespace AriaPlugin.Editor.Serializable
 {
     public static class Utillity
     {
